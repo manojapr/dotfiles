@@ -92,11 +92,13 @@ alias sqdev='bundle exec sidekiq -e development -C config/sidekiq.yml'
 alias bi='bundle install'
 alias rc='rails c'
 alias rb='rubocop'
+
 #ssh
-alias ioistage="ssh ubuntu@35.157.89.100"
-alias ioiprod="ssh ubuntu@35.156.16.1"
-alias sshs='ssh -i ~/.ssh/nextsocial-opsworks-eu-ireland.pem'
-alias sshp='ssh -i ~/.ssh/nextsocial-opsworks-us-west-ca_pro.pem'
+alias stagingry='ssh root@134.209.250.124'
+alias prodry='ssh root@167.71.34.181'
+alias sshvfr='ssh -i rahul_key.pem ubuntu@ec2-54-146-199-110.compute-1.amazonaws.com'
+
+
 #git
 alias gau='git add -u'
 alias gpushupstream='git push --set-upstream origin'
@@ -133,10 +135,12 @@ alias -- -="cd -"
 # Shortcuts
 alias dl="cd ~/Downloads"
 alias dsk="cd ~/Desktop"
-alias w="cd ~/project"
-alias mvp="cd ~/debitech/finiata-core-mvp-2"
+alias fibe="cd ~/debitech/finiata-core-mvp-2"
 alias core="cd ~/project/bookingsaround/bookingsaround-core"
-alias app="cd ~/project/bookingsaround/bookingaround-app"
+alias wibe="cd ~/project/bookingsaround/bookingsaround-core-mvp"
+alias wife="cd ~/project/bookingsaround/bookingaround-app"
+alias rybe="cd ~/project/rentvans/rydeu-backend-mvp/"
+alias ryfe="cd ~/project/rentvans/rentvans-app/"
 alias h="history"
 alias v="vim"
 alias s="sublime ."
